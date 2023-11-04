@@ -1,0 +1,154 @@
+1. a)java:- it  is a object oriented programing langauage.it is developed by the sun macro system to build the web based apllications.
+
+   b)javac:-this is a tool of java which we used to compile the code in the command prompt.
+
+2.a)JDK:- it stands for the "java development kit" and it is used to write and execute the code.
+  b)JRE:- it stands for the "java runtime environment" it us used to run and executethe code.
+  c)JVM:- it stands for the "java virtual machine" it is used to only execute the code.
+
+3.a) .java File:-it is the extension to save the java code which is writen by the user.
+  b) .class File:-It is a kanown as the amin file saved by trhe extension of the class file and it source code which is converted into the byte code.
+
+4)Notepade++,eclips,Visual studio code these are the java IdE's
+
+
+5)variable:-Variable is kanown as the storing the some informaation. and it allocate the address of the Memory Location.
+
+		    -:it have  2 types:-
+			
+			1)calss level
+			2)Method level
+	1)calss level:-it will store the variales values in the class is known as class level.and it contain 2 types
+				*static:-it is a keyword.and it will creat only one copy.
+				*Non-static:-we will not using the keyword static and it creat an multiple copeis.
+	2)Method level:it is the vairiable which we declared in method is called the method level variable.it have 2 types:-
+			1)Local:-the variables which is declared inside the menthod is kanon as the local variable. 
+			2)parameter:-the variable which is declared inside the parantesis is called the parameter.
+
+6)By the help of the object we can creat the polymorhism,abstraction,encapsulation,inheritence, and form will be object oriented programming.
+
+
+7)Compilation error
+
+
+8)data-type:-keys/values it is represents the keys and values as a string.
+
+
+		-:it have the two types:-
+			1)primitive:-*byte(8);
+				     *char('S');
+				     *int (3);
+				     *float(15.8); 
+			             *long(744326478l); 
+				     *boolean(true);
+				     *double(7657.00);
+				     *short(432);
+			2)Non-primitive:-*array[]={1,2,3,4,5,}
+					*String[] Name={"manoj", "anil", "mahanthesh", "madhu", "kiran"};
+					*any class name we can use
+          
+9) the dot property is used access the properties and methods of a class.
+		example:-this.age=new age();
+
+
+10)java features:- 1)it is the plateform independet.
+		   2) it is the multitasking.
+		   3) it is a speed.
+		   4) it is a auomoted gaurbage collection.
+		   5) it is having security.
+11)Array:-* it is a collection of the similar elements. 
+	  *once we declared the array we cannot change its size beacause it already aquired the memory.
+	  *the array is accesed by using the index.   
+	example:- String[] Name={"manoj", "anil", "mahanthesh", "madhu", "kiran"};
+		  boolean[] pass={true, false, true, false,false};
+ 
+12)a)class:- the class is a blue print to craet a object and it is used to craet methods and to declare the datatypes is know as the calss.
+   b)object:- it is the istance of the class is know as the object and it contains state and behavior.
+.
+	a)class example:-
+
+	class Mnaoj
+	{
+	static void manu
+		{
+			syatem.out.println("i am manoj");
+		}	
+	}
+
+
+	b)object example:-
+
+	class Manoj
+	{
+	public static void main(String args[])
+	Manoj manoj=new Manoj();
+	}
+
+
+
+13)keyword is a predefined variables stotred in the memory it cannot be change is known as the keyword.
+		example:- const,for,while,assert,class,public,private,
+
+14)constructor:- *it is special method.
+		*it has no retun type.
+		*it is used to initilize the instance variables.
+	1)default constructor:-it is a no argument contructor of the parent class.
+	2) parameterized constructor:-it is created by the used defined.
+
+15)the main method is a static it only once it creat a copy of the method and use for the execute the code by only using the main method without  main methodwe can't execute.
+			-:types:-static :-it creates only one copy.
+				 Non-static method:- it create multiple copies.
+
+		
+
+
+16)example:-
+	class Array
+	{
+	public static void main(String args[])
+	int[] array={}
+	for(int i=0; i<array.lenght; i++)
+	{
+	System.out.println();
+	}
+}
+
+
+17)	a)Method:-method is a block of it will be execute when we invoke it.
+
+	example:-class Manoj{
+		void manu()
+			{
+				System.out.println("--------");
+			}
+		   }
+
+
+	b)*Method overloading:- *it having same name change in the no of parameter.
+			* 
+
+		example:- class manoj{
+
+				String name;
+				int Mno;
+				dopuble price;
+		
+				Manoj()
+				{
+				System.out.println("it is default contructor")	
+				}
+				
+				Manoj(String name)
+				{
+				System.out.println("it is having the string name contructor ")	
+				}
+
+				Mnaoj(String name, int Mno)
+				{
+				System.out.Println("it i the having the string and int contructor")
+				}
+				}	
+
+
+
+
