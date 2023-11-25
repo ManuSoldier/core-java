@@ -1,0 +1,15 @@
+2)
+	class Reverse
+	{
+		Public static void main(String... args)
+			{
+				String name="Soldier";
+				String ulta;
+					
+				for(int i=str.length(); i>=0; i--)
+					{
+					ulta=ulta+str.charAt[i];
+					}
+			System.out.println("Reverse the String:"+ulta);	 
+			}
+	}

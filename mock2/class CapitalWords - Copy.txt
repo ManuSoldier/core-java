@@ -1,0 +1,24 @@
+3) 	
+	class CapitalWords	
+	{
+		public static void main(String... args)
+		{
+			String Name="Xworz OdC";
+
+			StringBuffur newName=new StringBuffur(Name);
+
+			for (int i=0; i<Name.length(); i++)
+				{	
+					if (Character.isLowerCase(Name.CharAt(i))
+					{
+					newName.setCharAt(i, Character.toUpperCase(Name.CharAt(i));
+					}
+
+					else if (Character.isUpperCase(Name.CharAt(i))
+					{
+					newName.setCharAt(i, Character.toLowerCase(Name.CharAt(i));
+					}
+				}
+				System.out.println("String in Coversted:"+newNmae);
+		}
+	}

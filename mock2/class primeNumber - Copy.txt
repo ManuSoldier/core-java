@@ -1,0 +1,23 @@
+class primeNumber
+{
+	public static void main(String... args)
+	 {
+		int num=13;
+				
+		if(num<=1)
+		{
+			System.out.println("this is not the valid prime number");						
+		}
+		for(int i=2; i<=math.sqrt(num); i++)
+		if(num%i==0)
+		{	
+			System.out.println("this a prime number");
+		}
+		
+		else
+			{
+			System.out.println("enter valid prime number");
+			}
+	}
+
+}
